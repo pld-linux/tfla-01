@@ -12,6 +12,7 @@ URL:		http://tfla-01.berlios.de/
 BuildRequires:	libieee1284-devel
 BuildRequires:	qmake
 BuildRequires:	qt-devel >= 3.3.0
+BuildRequires:	qt-linguist
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -20,8 +21,8 @@ needs to be attached on the parallel port is included in this
 installation package.
 
 %description -l pl
-Prosty analizator stanów logicznych dla portu parallel. Schemat
-urz±dzenia pod³±czanego do portu parallel znajduje siê razem z
+Prosty analizator stanów logicznych dla portu równoleg³ego PC. Schemat
+urz±dzenia pod³±czanego do portu równoleg³ego znajduje siê razem z
 programem.
 
 %prep
@@ -30,7 +31,8 @@ programem.
 %build
 qmake
 lrelease tfla-01.pro
-%{__make} QTDIR=%{_prefix}
+%{__make} \
+	QTDIR=%{_prefix}
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -50,7 +52,8 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README
 %attr(755,root,root) %{_bindir}/*
-%{_datadir}/%{name}
-%{_datadir}/pixmaps/*.png
-%{_docdir}/packages/tfla-01
-%{_desktopdir}/*
+%{_datadir}/%{name}#
+# FIXME: missing dir (move it to %doc or one level up)
+#%{_docdir}/packages/tfla-01
+%{_pixmapsdir}/*.png
+%{_desktopdir}/*.desktop
