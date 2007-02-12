@@ -1,5 +1,5 @@
 Summary:	tfla-01 - a simple logic analyzer for the PC
-Summary(pl):	tfla-01 - prosty analizatar stanów logicznych dla PC
+Summary(pl.UTF-8):   tfla-01 - prosty analizatar stanÃ³w logicznych dla PC
 Name:		tfla-01
 Version:	0.1.2
 Release:	0.1
@@ -20,9 +20,9 @@ Simple logic analyzer for the PC's parallel port. The schematic which
 needs to be attached on the parallel port is included in this
 installation package.
 
-%description -l pl
-Prosty analizator stanów logicznych dla portu równoleg³ego PC. Schemat
-urz±dzenia pod³±czanego do portu równoleg³ego znajduje siê razem z
+%description -l pl.UTF-8
+Prosty analizator stanÃ³w logicznych dla portu rÃ³wnolegÅ‚ego PC. Schemat
+urzÄ…dzenia podÅ‚Ä…czanego do portu rÃ³wnolegÅ‚ego znajduje siÄ™ razem z
 programem.
 
 %prep
