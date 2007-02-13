@@ -1,5 +1,5 @@
 Summary:	tfla-01 - a simple logic analyzer for the PC
-Summary(pl.UTF-8):   tfla-01 - prosty analizatar stanów logicznych dla PC
+Summary(pl.UTF-8):	tfla-01 - prosty analizatar stanów logicznych dla PC
 Name:		tfla-01
 Version:	0.1.2
 Release:	0.1
