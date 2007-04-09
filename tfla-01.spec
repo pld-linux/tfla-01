@@ -11,7 +11,7 @@ Source1:	%{name}.desktop
 URL:		http://tfla-01.berlios.de/
 BuildRequires:	libieee1284-devel
 BuildRequires:	qmake
-BuildRequires:	qt-devel >= 3.3.0
+BuildRequires:	qt-devel >= 6:3.3.0
 BuildRequires:	qt-linguist
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
