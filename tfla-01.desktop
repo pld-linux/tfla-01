@@ -2,10 +2,9 @@
 Name=tfla-01
 Comment=Simple logic analyzer
 Comment[pl]=Prosty analizator stanów logicznych
-Icon=tfla-01_32.png
+Icon=tfla-01_32
 Exec=tfla-01
 Terminal=false
 Type=Application
 Categories=Utility;Electronics;
-Encoding=UTF-8
 # vi: encoding=utf-8
